@@ -1,0 +1,92 @@
+#box
+{
+ height: 280px;
+ width: 300px;
+ background: linear-gradient(#766060e1,#652929e1,rgb(155, 117, 117),#6d2020e1,#872f2fe1 );
+display: flex;
+margin-left: 470px;
+margin-top: 20px;
+border-radius: 30px;
+box-shadow: 10px 13px 15px ;
+}
+#label
+{
+    height: 40px;
+    width: 240px;
+    background-color: rgb(0, 0, 0);
+    margin:0px;
+    margin-left:30px;
+    margin-top: 20px;
+    border-radius:10px;
+
+}
+#label #input
+{
+    height:45px;
+    width: 240px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: black;
+}
+#but
+{
+    height: 40px;
+    width: 60px;
+    background-color: rgba(39, 194, 12, 0);
+    margin-left: -160px;
+    margin-top: 180px;
+    border-radius: 20px 40px 20px 40px;
+}
+#but1
+{
+    height: 50px;
+    width: 70px;
+    border-radius:5px 20px;
+   background-image: linear-gradient(rgb(231, 109, 123),rgb(255, 255, 255),rgb(183, 74, 77));
+   font-size:small;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: 800;
+   
+}
+#mbox  
+{
+   height:120px;
+   width:300px;
+   background: linear-gradient(#766060e1,#652929e1,rgb(155, 117, 117),#6d2020e1,#480303e1 );
+   margin-left:470px;
+   border-radius:70px 20px 68px 20px;
+    box-shadow: 15px 12px 10px ;
+    margin-top: -7px;
+}
+#mbox #msg
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    padding: 15px;
+    font-size: large;
+    background:linear-gradient();
+    
+}
+#but1:hover{
+    box-shadow: 1px 2px 6px ;
+    background: linear-gradient(#766060e1,#652929e1,rgb(155, 117, 117),#6d2020e1,#480303e1 );
+    color: white;
+}
+h1{
+    text-align: center;
+    background:  linear-gradient(#d4868600,#65292900,rgba(155, 117, 117, 0),#a4474700,#48030300 );
+    width: 170px;
+    margin-left: 560px;
+    border-radius: 10px 30px;
+    text-shadow: 2px 0px 5px;
+
+}
+body{
+    background: linear-gradient(#ee324b,#d29191e1,rgb(171, 103, 103),#6d2020e1,#480303e1 );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
